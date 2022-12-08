@@ -3,8 +3,8 @@
   <div v-else class="p-12">
     <h1 class="font-bold text-xl">Hydrated: {{ hydrated }} <ClockIcon24Outline class="inline h-6 w-6" /></h1>
     {{ data!.length }} todos found.
-    <ul v-for="todo of data">
-      <li>{{ todo.title }}</li>
+    <ul>
+      <li v-for="todo of data">{{ todo.title }}</li>
     </ul>
     <Option />
   </div>
