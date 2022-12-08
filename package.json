@@ -12,6 +12,7 @@
     "nuxt": "3.0.0"
   },
   "dependencies": {
+    "@averjs/nuxt-compression": "^1.2.2",
     "@headlessui/vue": "^1.7.4",
     "@heroicons/vue": "^2.0.13",
     "@nuxtjs/tailwindcss": "^6.1.3"

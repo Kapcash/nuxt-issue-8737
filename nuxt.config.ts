@@ -4,6 +4,7 @@ export default defineNuxtConfig({
     '@/assets/css/tailwind.css',
   ],
   modules: [
+    '@averjs/nuxt-compression',
     '@nuxtjs/tailwindcss',
     './modules/heroicons',
   ],
