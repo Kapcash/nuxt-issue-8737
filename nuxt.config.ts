@@ -5,5 +5,9 @@ export default defineNuxtConfig({
   ],
   modules: [
     '@nuxtjs/tailwindcss',
-  ]
+    './modules/heroicons',
+  ],
+  // build: {
+  //   transpile: ['@heroicons/vue', '@headlessui/vue'],
+  // },
 })
