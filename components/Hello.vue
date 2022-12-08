@@ -1,7 +1,7 @@
 <template>
-  <p v-if="pending">Loading</p>
-  <div v-else>
-    <h1 style="font-weight: bold; font-size: 2rem;">Hydrated: {{ hydrated }}</h1>
+  <p v-if="pending" class="text-orange-500">Loading</p>
+  <div v-else class="p-12">
+    <h1 class="font-bold text-xl">Hydrated: {{ hydrated }}</h1>
     {{ data!.length }} todos found.
     <ul v-for="todo of data">
       <li>{{ todo.title }}</li>
